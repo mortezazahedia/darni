@@ -477,7 +477,52 @@ git show commitid
 
 
 
+```
+git remote add reza https://github.com/mortezazahedia/reza.git
+
+git remote add https://github.com/mortezazahedia/reza.git
+git remote add reza https://github.com/mortezazahedia/reza.git
+git remote
+git remote rename reza rezaaa
+git remote
+git remote set-url rezaaa https://github.com/mortezazahedia/reza.git
+git remote
+
+git branch
+git remote
+git fetch #remoteename (rezaaa)
+git branch
+git branch -a
+git checkout  #hiddenbranch (remotes/rezaaa/main)
+git log
+git checkout -b master
+git log
+```
 
 
 
+```
+#clone
+
+git clone https://github.com/mortezazahedia/reza.git
+cd reza
+git log
+git branch
+git remote
+git remote get-url origin
+touch f1.html
+git add .
+git commit -m '1st commit'
+git push origin
+
+
+#change on server
+git fetch origin
+git log
+git branch -a
+git log #hiddenbranch
+git merge #hiddenbarnch
+
+git pull origin #dest_branch
+```
 
